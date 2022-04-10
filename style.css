@@ -1,0 +1,59 @@
+:root {
+  --mainColor: #1a1d2e;
+  --seconderyColor: #2f3244;
+  --acsenColor: #4194d0;
+  --acsenTwoColor: rgb(238, 163, 0);
+  --seconderyTwoColor: #1e2031;
+}
+
+.acsenColor {
+  color: var(--acsenColor) !important;
+}
+
+.bg-colorForm {
+  background-color: #9ac4e2;
+}
+
+.acsenTwoColor {
+  color: var(--acsenTwoColor) !important;
+}
+
+.bg-secondaryColor {
+  background-color: var(--seconderyColor);
+}
+
+.bg-secondaryTwoColor {
+  background-color: var(--seconderyTwoColor);
+}
+
+body {
+  background-color: var(--mainColor);
+  font-family: "ubuntu", sans-serif;
+  min-height: 900px;
+  color: #fff;
+}
+
+/* hero */
+
+.btn-custom1 {
+  background-color: var(--acsenColor);
+  text-align: center;
+  color: #fff;
+  width: 90px;
+  height: 45px;
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+.btn-custom1:hover {
+  box-shadow: 0 0 7px #4194d0;
+}
+
+/*  */
+
+#hero .home-img {
+  width: 230px;
+  border-radius: 50%;
+}
+
+/* end hero */
