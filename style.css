@@ -54,6 +54,23 @@ body {
 #hero .home-img {
   width: 230px;
   border-radius: 50%;
+  margin-top: 110px;
+  margin-bottom: 90px;
 }
 
 /* end hero */
+
+/*  */
+.img-costum2 {
+  width: 120px;
+}
+
+.abu {
+  color: #707172;
+}
+
+.full-end {
+  border-radius: 20px;
+  box-shadow: 0 0 10px 1px #707172;
+}
+/*  */

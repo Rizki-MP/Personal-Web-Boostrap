@@ -24,40 +24,33 @@
   <body id="body">
     <!-- nav -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark py-2 bg-secondaryColor fixed-top position-relative">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top position-relative shadow">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-8">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav me-5">
-                <a class="nav-link active me-3 acsenColor fw-bold" aria-current="page" href="#">RIZKI</a>
-              </div>
-              <div class="navbar-nav ms-5">
-                <a class="nav-link active acsenTwoColor me-3 fw-bold" aria-current="page" href="#body">HOME</a>
-                <a class="nav-link me-3" href="#about">ABOUT</a>
-                <a class="nav-link me-3" href="#skill">SKILL</a>
-                <a class="nav-link me-3" href="#contact">CONTACT</a>
-              </div>
-            </div>
+        <a class="navbar-brand me-5 acsenColor fw-bold" href="#">RIZKI MUH PASINRINGI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-5 fw-bold">
+            <a class="nav-link active acsenTwoColor" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Skill</a>
+            <a class="nav-link" href="#">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-
     <!-- end nav -->
 
     <!-- hero -->
 
-    <section id="hero" class="mt-5">
+    <section id="hero">
       <div class="container">
-        <div class="row costum1 min-vh-100 align-items-center align-content-center">
+        <div class="row costum1">
           <div class="col-md-5 offset-md-1 text-center">
-            <img class="img-fluid home-img mb-5" src="img/hero.png" alt="" />
+            <img class="img-fluid home-img" src="img/hero.png" alt="" />
           </div>
-          <div class="col-md-6 text-center text-lg-start">
+          <div class="col-md-6 text-center text-lg-start my-auto">
             <h2>Hallo Semua,</h2>
             <h1 class="fw-bold acsenColor">Saya Rizki Muh Pasinringi</h1>
             <p>Saya Seorang <span class="acsenTwoColor"> Pelajar </span></p>
@@ -78,7 +71,7 @@
             <h2 class="fw-bold acsenColor">About</h2>
           </div>
           <div class="col-md-6 col-sm-8 fs-5">
-            <p class="text-center">Hallo Nama Saya Rizki, Saya kelas 2 smp, Umur saya sekarang 14 tahun, Saya seorang newbie</p>
+            <p class="text-center">Hallo Nama Saya Rizki, Saya kelas 2 smp, Umur saya sekarang 14 tahun, Saya seorang newbie "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus quod harum eos, modi quis"</p>
           </div>
         </div>
       </div>
@@ -92,9 +85,24 @@
       <div class="container">
         <div class="row py-4">
           <div class="col-12 my-4">
-            <h2 class="fw-bold text-center acsenColor">Skill</h2>
+            <h2 class="fw-bold text-center acsenColor">SKILL</h2>
           </div>
-          <div class="col-4 text-center acsenTwoColor">
+          <div class="full-end col-md-5 my-5 col-sm-10 text-center acsenTwoColor bg-secondaryColor py-2">
+            <h3>Front end</h3>
+
+            <img class="img-costum2 rounded-circle me-2" src="img/html.png" alt="" />
+
+            <img class="img-costum2 rounded-circle me-2" src="img/css.png" alt="" />
+
+            <img class="img-costum2 rounded-circle me-2" src="img/javascript.png" alt="" />
+          </div>
+          <div class="full-end col-md-5 my-5 offset-md-2 text-center acsenTwoColor bg-secondaryColor py-2">
+            <h3 class="abu">Back end (UpComming)</h3>
+
+            <img class="img-costum2 rounded-circle me-2" src="img/php.jpg" alt="" />
+          </div>
+
+          <!-- <div class="col-4 text-center acsenTwoColor">
             <h3>Html</h3>
             <img class="img-fluid rounded-circle" src="img/html.png" alt="" />
           </div>
@@ -105,7 +113,7 @@
           <div class="col-4 text-center acsenTwoColor">
             <h3>JavaScript</h3>
             <img class="img-fluid rounded-circle" src="img/javascript.png" alt="" />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
