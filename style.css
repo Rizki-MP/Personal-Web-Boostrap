@@ -76,3 +76,12 @@ body {
   border-radius: 20px;
   box-shadow: 0 0 10px 1px #707172;
 }
+
+/* sertifikat */
+.card {
+  overflow: hidden;
+  border-radius: 30px !important;
+  background-color: var(--seconderyColor);
+}
+
+/* end sertifikat */
