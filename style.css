@@ -56,12 +56,40 @@ body {
   border-radius: 50%;
   margin-top: 100px;
   margin-bottom: 50px;
+  box-shadow: 1px 1px 4px #8cb4d1;
+  transition: 0.4s;
+  transition: all is ease-in-out;
+}
+
+#hero .home-img:hover {
+  transform: rotate(-10deg);
+  box-shadow: 4px 4px 10px #4194d0;
 }
 
 /* end hero */
 
 .img-costum2 {
   width: 120px;
+}
+
+.div-costum {
+  transition: 0.4s;
+}
+
+.div-costum:hover {
+  transform: rotate(2deg);
+}
+
+.div-costum2 {
+  transition: 0.4s;
+}
+
+.div-costum2:hover {
+  transform: rotate(-2deg);
+}
+
+.img-costum3 {
+  box-shadow: 0px 0px 7px #8cb4d1;
 }
 
 #abu .abu {
