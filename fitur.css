@@ -1,0 +1,45 @@
+body {
+  font-family: "ubuntu", sans-serif;
+  background-color: #ffe6b1;
+  min-height: 3000px;
+}
+
+.text-costum {
+  color: rgb(238, 163, 0) !important;
+}
+
+.bg-oren {
+  background-color: #ffe1a1;
+}
+
+.bg-costum {
+  background-color: rgb(238, 163, 0);
+}
+
+.btn-costum {
+  background-color: rgb(238, 163, 0);
+}
+
+/* home */
+
+.home-img img {
+  transition: 0.4s;
+  transition: all is ease-in-out;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px #d0bb41;
+
+  width: 250px !important;
+}
+
+.home-img img:hover {
+  transform: rotate(-10deg);
+  box-shadow: 4px 4px 5px 4px #d0bb41;
+}
+/* end home */
+
+/* project */
+.card {
+  border: none;
+  background-color: #ffe1a1;
+}
+/* end project */
