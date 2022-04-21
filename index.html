@@ -8,154 +8,239 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-    <!-- responsive -->
-    <link rel="stylesheet" href="responsive.css" />
-
-    <!-- My Css -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="Font-Awesome/css/all.min.css" />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet" />
 
-    <title>Web Rizki</title>
-  </head>
-  <body id="body">
-    <!-- nav -->
+    <!-- font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top position-relative shadow">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Rizki Muh Pasinringi</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-oren shadow-sm">
       <div class="container">
-        <a class="navbar-brand me-5 acsenColor fw-bold" href="#">RIZKI MUH PASINRINGI</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto fw-bold">
-            <a class="nav-link active acsenTwoColor" aria-current="page" href="#body">Home</a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#skill">Skill</a>
-            <a class="nav-link" href="#contact">Contact</a>
+        <a class="navbar-brand text-costum text-uppercase" href="#">Rizki Muh Pasinringi</a>
+          <button class="navbar-toggler btn-costum" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto fw-bold">
+              <a class="nav-link me-3 active text-costum" aria-current="page" href="#body">Home</a>
+              <a class="nav-link me-3" href="#about">About</a>
+              <a class="nav-link me-3" href="#skill">Skill</a>
+              <a class="nav-link me-3" href="#contact">Contact</a>
+            </div>
           </div>
-        </div>
-      </div>
     </nav>
     <!-- end nav -->
 
-    <!-- hero -->
-
-    <section id="hero">
+    <!-- home -->
+    <section id="home" class="pt-5">
       <div class="container">
-        <div class="row costum1">
-          <div class="col-md-5 offset-md-1 text-center">
-            <img class="img-fluid home-img" src="img/hero.png" alt="" />
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6">
+            <div class="home-img text-center">
+              <img class="mw-100" src="img/hero.png" alt="" />
+            </div>
           </div>
-          <div class="col-md-6 text-center text-lg-start my-auto">
-            <h2>Hallo Semua,</h2>
-            <h1 class="fw-bold acsenColor">Saya Rizki Muh Pasinringi</h1>
-            <p>Saya Seorang <span class="acsenTwoColor"> Pelajar </span></p>
-            <button class="btn btn-custom1">Start!</button>
+          <div class="col-md-6 order-md-first">
+            <div class="home-text">
+              <p class="mb-0">Hello I am</p>
+              <h1 class="text-costum fw-bold mb-1 fs-1">Newbie</h1>
+              <h2 class="fs-4">RIZKI MUH PASINRINGI</h2>
+              <p>
+                <span class="fw-bold"> Bingung mau nambahin apa di sini...lorem aja lah </span> " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non repudiandae officia voluptatum, maxime eaque ex saepe reiciendis molestiae
+                labore architecto dignissimos doloremque aliquid nesciunt impedit autem voluptas excepturi quia! Nostrum?"
+              </p>
+              <a href="" class="btn btn-costum no-shhadow"> Check </a>
+            </div>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#2f3244"
+          fill="#ffdd94"
           fill-opacity="1"
-          d="M0,288L30,261.3C60,235,120,181,180,160C240,139,300,149,360,160C420,171,480,181,540,208C600,235,660,277,720,277.3C780,277,840,235,900,186.7C960,139,1020,85,1080,96C1140,107,1200,181,1260,197.3C1320,213,1380,171,1410,149.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          d="M0,32L26.7,42.7C53.3,53,107,75,160,96C213.3,117,267,139,320,133.3C373.3,128,427,96,480,85.3C533.3,75,587,85,640,101.3C693.3,117,747,139,800,170.7C853.3,203,907,245,960,224C1013.3,203,1067,117,1120,85.3C1173.3,53,1227,75,1280,122.7C1333.3,171,1387,245,1413,282.7L1440,320L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
         ></path>
       </svg>
     </section>
-
-    <!-- end hero -->
+    <!-- end home -->
 
     <!-- about -->
-
-    <section id="about" class="bg-secondaryColor">
-      <div class="container py-5">
+    <section id="about" class="bg-oren">
+      <div class="container pb-5">
         <div class="row justify-content-center">
-          <div class="col-12 text-center">
-            <h2 class="fw-bold acsenColor">About</h2>
+          <div class="col-8 py-5 text-center">
+            <h1 class="fw-bold">About Me</h1>
           </div>
-          <div class="col-md-6 col-sm-8 fs-5">
-            <p class="text-center">Hallo Nama Saya Rizki, Saya kelas 2 smp, Umur saya sekarang 14 tahun, Saya seorang newbie "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi doloribus quod harum eos, modi quis"</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Hallo Nama Saya Rizki, Saya kelas 2 smp, Umur saya sekarang 14 tahun, Saya seorang newbie</h3>
+            <p class="text-muted">
+              <span class="fw-bold"> Bingung mau nambahin apa di sini...lorem aja lah </span> " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non repudiandae officia voluptatum, maxime eaque ex saepe reiciendis molestiae labore
+              architecto dignissimos doloremque aliquid nesciunt impedit autem voluptas excepturi quia! Nostrum?"
+            </p>
+            <div class="row">
+              <div class="col-4">
+                <h4 class="fw-bold">0</h4>
+                <p>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>None</p>
+              </div>
+              <div class="col-4">
+                <h4 class="fw-bold">0</h4>
+                <p>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>None</p>
+              </div>
+              <div class="col-4">
+                <h4 class="fw-bold">0</h4>
+                <p>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </p>
+                <p>None</p>
+              </div>
+            </div>
+            <div class="col-12 d-flex mb-5 align-items-center align-content-center">
+              <a href="" class="btn btn-costum">Download</a>
+              <div class="social-links">
+                <a href="" class="text-decoration-none ms-5 text-black"> <i class="fab fa-facebook-f"></i> </a>
+                <a href="https://www.instagram.com/rizki_muh_pasinringi/" target="blank" class="text-decoration-none ms-2 text-black"> <i class="fab fa-instagram"></i> </a>
+                <a href="" class="text-decoration-none ms-2 text-black"> <i class="fab fa-youtube-square"></i> </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="skill-item">
+              <h4>Html</h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-costum" role="progressbar" style="width: 75%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">75 %</div>
+              </div>
+              <h4>Css</h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-costum" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+              <h4>Bootstrap 5</h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-costum" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+              <h4>javascript</h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-costum" role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">5%</div>
+              </div>
+              <h4>Php</h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-costum" role="progressbar" style="width: 3%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">3%</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#1a1d2e"
+          fill="#e4bc73"
           fill-opacity="1"
-          d="M0,224L30,218.7C60,213,120,203,180,181.3C240,160,300,128,360,122.7C420,117,480,139,540,138.7C600,139,660,117,720,96C780,75,840,53,900,90.7C960,128,1020,224,1080,234.7C1140,245,1200,171,1260,128C1320,85,1380,75,1410,69.3L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          d="M0,0L26.7,5.3C53.3,11,107,21,160,48C213.3,75,267,117,320,117.3C373.3,117,427,75,480,64C533.3,53,587,75,640,106.7C693.3,139,747,181,800,176C853.3,171,907,117,960,122.7C1013.3,128,1067,192,1120,192C1173.3,192,1227,128,1280,117.3C1333.3,107,1387,149,1413,170.7L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
         ></path>
       </svg>
     </section>
-
     <!-- end about -->
 
-    <!-- section skill -->
-
-    <section id="skill">
-      <div class="container">
-        <div class="row py-4">
-          <div class="col-12">
-            <h2 class="fw-bold text-center acsenColor">SKILL</h2>
+    <!-- service -->
+    <section id="service">
+      <div class="container mb-5">
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <h1 class="fw-bold text-center py-5">Apa Yang Saya Bisa ?</h1>
           </div>
-          <div class="full-end div-costum col-md-5 my-5 col-sm-10 text-center acsenTwoColor bg-secondaryColor py-2">
-            <h3>Front end</h3>
-            <img class="img-costum2 rounded-circle me-2" src="img/html.png" alt="" />
-            <img class="img-costum2 rounded-circle me-2" src="img/css.png" alt="" />
-            <img class="img-costum2 img-costum3 rounded-circle me-2" src="img/javascript.png" alt="" />
-            <img class="img-costum2 img-costum3 rounded-circle me-2" src="img/bootstrap.png" alt="" />
-            <h3 class="abu mt-5" id="abu">UpComing</h3>
-            <img class="img-costum2 img-costum3 rounded-circle me-2" src="img/tailwin.png" alt="" />
+        </div>
+        <div class="row justify-content-center d-flex">
+          <div class="col-md-4 col-lg-4 mb-4">
+            <div class="kotak bg-oren rounded-3 shadow shadow-sm text-center p-4">
+              <p class="text-center fs-4 fw-bold text-costum"><i class="fas fa-code"></i></p>
+              <h5 class="fw-bold">Web Development</h5>
+              <p class="text-muted"><span class="fw-bold"> Aslinya Blom Bisa YgesYa WKWKWKWK.. </span>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <a href="#" class="btn btn-costum">Klik Dulu</a>
+              
+            </div>
           </div>
-          <div class="full-end div-costum2 col-md-5 my-5 offset-md-2 text-center acsenTwoColor bg-secondaryColor py-2">
-            <h3 class="abu">Back end (UpComing)</h3>
-
-            <img class="img-costum2 img-costum3 rounded-circle me-2" src="img/php.jpg" alt="" />
+          <div class="col-md-4 col-lg-4 mb-4">
+            <div class="kotak bg-oren rounded-3 shadow shadow-sm text-center p-4">
+              <p class="text-center fs-4 fw-bold text-costum"><i class="fas fa-code"></i></p>
+              <h5 class="fw-bold">Game Development</h5>
+              <p class="text-muted"><span class="fw-bold"> Aslinya Blom Bisa YgesYa WKWKWKWK.. </span>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <a href="#" class="btn btn-costum">Klik Dulu</a>
+            </div>
           </div>
-
-          <!-- <div class="col-4 text-center acsenTwoColor">
-            <h3>Html</h3>
-            <img class="img-fluid rounded-circle" src="img/html.png" alt="" />
+          <div class="col-md-4 col-lg-4 mb-4">
+            <div class="kotak bg-oren rounded-3 shadow shadow-sm text-center p-4">
+              <p class="text-center fs-4 fw-bold text-costum"><i class="fas fa-code"></i></p>
+              <h5 class="fw-bold">Mobile Development</h5>
+              <p class="text-muted"><span class="fw-bold"> Aslinya Blom Bisa YgesYa WKWKWKWK.. </span>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <a href="#" class="btn btn-costum">Klik Dulu</a>
+            </div>
           </div>
-          <div class="col-4 text-center acsenTwoColor">
-            <h3>Css</h3>
-            <img class="img-fluid rounded-circle" src="img/css.png" alt="" />
-          </div>
-          <div class="col-4 text-center acsenTwoColor">
-            <h3>JavaScript</h3>
-            <img class="img-fluid rounded-circle" src="img/javascript.png" alt="" />
-          </div> -->
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffdd94"
+          fill-opacity="1"
+          d="M0,0L26.7,5.3C53.3,11,107,21,160,48C213.3,75,267,117,320,117.3C373.3,117,427,75,480,64C533.3,53,587,75,640,106.7C693.3,139,747,181,800,176C853.3,171,907,117,960,122.7C1013.3,128,1067,192,1120,192C1173.3,192,1227,128,1280,117.3C1333.3,107,1387,149,1413,170.7L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
     </section>
+    <!-- end service -->
 
-    <!-- end section skill -->
-
-    <!-- sertifikat -->
-    <section id="sertifikat">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="fw-bold text-center acsenColor my-5">Sertifikat</h2>
+    <!-- project -->
+    <section id="project" class="project pt-5 bg-oren">
+      <div class="container py-4">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <h1 class="fw-bold text-center pb-5">Project</h1>
           </div>
-          <div class="col-12 text-center justify-content-center ">
-            <div class="card mx-auto" style="width: 17rem">
-              <img src="img/sertifikat1.png" alt="sertifikat1"></img>
-              <div class="card-body">
-                <h5 class="card-title">BrightChamps</h5>
-                <p class="card-text">Ini Sertifikat saya setelah melakukan pembelajaran trial di BrightChamps</p>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4">
+            <div class="project-item bg-oren mb-5 shadow rounded-3 tes">
+              <img src="img/contact-me.png" class="w-100" alt="" />
+              <div class="title p-3">
+                <h3 class="">Contact-Me</h3>
+                <p><a class="text-decoration-none text-costum" href="#">Kunjungi Beberapa Media social saya</a></p>
               </div>
             </div>
           </div>
-          <div class="col-12 text-center justify-content-center mt-3 ">
-            <div class="card mx-auto" style="width: 17rem">
-              <img src="img/sertifikat2.png" alt="sertifikat1"></img>
-              <div class="card-body">
-                <h5 class="card-title">BrightChamps</h5>
-                <p class="card-text">Ini Sertifikat saya setelah melakukan pembelajaran trial di BrightChamps</p>
+          <div class="col-md-4">
+            <div class="project-item bg-oren shadow rounded-3 tes">
+              <img src="img/contact-me.png" class="w-100" alt="" />
+              <div class="title p-3">
+                <h3 class="">Contact-Me</h3>
+                <p><a class="text-decoration-none text-costum" href="#">Kunjungi Beberapa Media social saya</a></p>
               </div>
             </div>
           </div>
@@ -163,43 +248,64 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#2f3244"
+          fill="#e4bc73"
           fill-opacity="1"
           d="M0,288L30,240C60,192,120,96,180,58.7C240,21,300,43,360,74.7C420,107,480,149,540,170.7C600,192,660,192,720,160C780,128,840,64,900,74.7C960,85,1020,171,1080,202.7C1140,235,1200,213,1260,218.7C1320,224,1380,256,1410,272L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
       </svg>
     </section>
-    <!-- end sertifikat -->
+    <!-- end project -->
 
     <!-- contact -->
     <section id="contact" class="bg-secondaryColor">
       <div class="container py-4">
         <div class="row justify-content-center py-4">
-          <div class="col-12 text-center my-3">
+          <div class="col-12 text-center mb-5">
             <h2 class="fw-bold acsenColor">Contact</h2>
           </div>
-          <div class="col-8">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control bg-colorForm" id="name" aria-describedby="name" />
+          <div class="col-12">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="keterangan bg-oren rounded-3 shadow-sm mb-5 mt-2 p-5">
+                  <div class="email mb-5">
+                    <p class="m-0"><i class="fas fa-envelope text-costum2"></i> Email</p>
+                    <p class="m-0">rizkimuhpasinringi@gmail.com</p>
+                  </div>
+                  <div class="ponsel mb-5">
+                    <p class="m-0"><i class="fas fa-phone text-costum2"></i> Ponsel</p>
+                    <p class="m-0">08*********9</p>
+                  </div>
+                  <div class="Lokasi ">
+                    <p class="m-0"><i class="fas fa-map-marked-alt text-costum2"></i> Lokasi</p>
+                    <p class="m-0">Jln.--------</p>
+                  </div>
+                </div>
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Masukkan Alamat Email</label>
-                <input type="email" class="form-control bg-colorForm" id="email" aria-describedby="email" />
+              <div class="col-md-6 offset-md-1">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control bg-colorForm" id="name" aria-describedby="name" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Masukkan Alamat Email</label>
+                    <input type="email" class="form-control bg-colorForm" id="email" aria-describedby="email" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="komen" class="form-label">Masukkan Kommentar</label>
+                    <textarea class="form-control bg-colorForm" id="komen" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-costum">Submit</button>
+                </form>
               </div>
-              <div class="mb-3">
-                <label for="komen" class="form-label">Masukkan Kommentar</label>
-                <textarea class="form-control bg-colorForm" id="komen" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-custom1 mb-3">Submit</button>
-            </form>
+            </div>
+            
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#1a1d2e"
+          fill="#ffdd94"
           fill-opacity="1"
           d="M0,64L30,101.3C60,139,120,213,180,224C240,235,300,181,360,154.7C420,128,480,128,540,138.7C600,149,660,171,720,165.3C780,160,840,128,900,128C960,128,1020,160,1080,186.7C1140,213,1200,235,1260,218.7C1320,203,1380,149,1410,122.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
         ></path>
@@ -208,12 +314,13 @@
     <!-- end contact -->
 
     <!-- footer -->
-    <footer class="pb-5">
+    <footer class="pb-5 bg-oren">
       <p class="text-center">Created By <span class="acsenTwoColor">Rizki Muh Pasinringi</span></p>
     </footer>
     <!-- end footer -->
 
     <!-- 
+
 
 
 

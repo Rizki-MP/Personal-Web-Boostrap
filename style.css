@@ -1,115 +1,114 @@
-:root {
-  --mainColor: #1a1d2e;
-  --seconderyColor: #2f3244;
-  --acsenColor: #4194d0;
-  --acsenTwoColor: rgb(238, 163, 0);
-  --seconderyTwoColor: #1e2031;
-}
-
-.acsenColor {
-  color: var(--acsenColor) !important;
-}
-
-.bg-colorForm {
-  background-color: #9ac4e2;
-}
-
-.acsenTwoColor {
-  color: var(--acsenTwoColor) !important;
-}
-
-.bg-secondaryColor {
-  background-color: var(--seconderyColor);
-}
-
-.bg-secondaryTwoColor {
-  background-color: var(--seconderyTwoColor);
-}
-
 body {
-  background-color: var(--mainColor);
   font-family: "ubuntu", sans-serif;
-  min-height: 900px;
-  color: #fff;
+  background-color: #e4bc73;
+  min-height: 3000px;
 }
 
-/* hero */
-
-.btn-custom1 {
-  background-color: var(--acsenColor);
-  text-align: center;
-  color: #fff;
-  width: 90px;
-  height: 45px;
-  font-size: 1.2rem;
-  transition: 0.4s;
+.text-costum {
+  color: rgb(238, 163, 0) !important;
 }
 
-.btn-custom1:hover {
-  box-shadow: 0 0 7px #4194d0;
+.text-costum2 {
+  color: #c28920;
 }
 
-/*  */
+.bg-oren {
+  background-color: #ffdd94;
+}
 
-#hero .home-img {
-  width: 230px;
-  border-radius: 50%;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  box-shadow: 1px 1px 4px #8cb4d1;
+.bg-costum {
+  background-color: rgb(238, 163, 0);
+}
+
+/* btn costum */
+.btn-costum {
+  background-color: #ce9f11;
+}
+
+.no-shhadow {
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0);
+}
+
+.btn-costum:hover {
+  cursor: pointer;
+  background-color: #ffc000;
+  box-shadow: 0 0 5px #ffc000, 0 0 20px #ffc000, 0 0 60px #ffc000;
+}
+/* end btn costum */
+
+/* nav */
+nav .navbar-brand {
+  font-family: "Courgette", cursive;
+}
+
+nav .nav-link {
+  transition: ease 0.2s;
+}
+
+@media screen and (min-width: 960px) {
+  nav .nav-link:hover {
+    color: rgb(122, 115, 108) !important;
+    border-radius: 10px;
+    background-color: rgb(238, 163, 0);
+  }
+}
+
+/* end nav */
+
+/* home */
+
+.home-img img {
   transition: 0.4s;
   transition: all is ease-in-out;
+  border-radius: 50%;
+  box-shadow: 2px 1px 5px rgb(255, 87, 69);
+  width: 250px !important;
 }
 
-#hero .home-img:hover {
-  transform: rotate(-10deg);
-  box-shadow: 4px 4px 10px #4194d0;
+.home-text {
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-/* end hero */
+.home-img img:hover {
+  transform: translateY(-50px);
+  box-shadow: 14px 40px 4px #ff9945;
+}
+/* end home */
 
-.img-costum2 {
-  width: 120px;
+/* service */
+.kotak {
+  transition: 0.3s;
 }
 
-.div-costum {
-  transition: 0.4s;
+.kotak:hover {
+  transform: scale(1.1);
 }
+/* end service */
 
-.div-costum:hover {
-  transform: rotate(2deg);
-}
-
-.div-costum2 {
-  transition: 0.4s;
-}
-
-.div-costum2:hover {
-  transform: rotate(-2deg);
-}
-
-.img-costum3 {
-  box-shadow: 0px 0px 7px #8cb4d1;
-}
-
-#abu .abu {
-  color: #707172;
-}
-
-.abu {
-  color: #707172;
-}
-
-.full-end {
-  border-radius: 20px;
-  box-shadow: 0 0 10px 1px #707172;
-}
-
-/* sertifikat */
-.card {
+/* project */
+.tes {
   overflow: hidden;
-  border-radius: 30px !important;
-  background-color: var(--seconderyColor);
 }
 
-/* end sertifikat */
+.project-item {
+  transition: 0.3s;
+}
+
+.project-item:hover {
+  /* transform: translateY(-50px); */
+  transform: scale(1.1);
+  background-image: linear-gradient(45deg, rgb(0, 36, 77), rgb(197, 104, 76)) !important;
+  color: #fff;
+}
+
+/* end project */
+
+/* contact */
+.keterangan {
+  transition: 0.3s;
+}
+
+.keterangan:hover {
+  transform: translateY(-50px);
+}
+/* end contact */
