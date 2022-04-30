@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --background: #fff1f1;
+  --secondaryColor: salmon;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+  min-height: 3000px;
+}
+
+.text-secondaryColor {
+  color: var(--secondaryColor) !important;
+}
+
+.text-secondaryTwoColor {
+  color: var(--background) !important;
+}
+
+.bg-secondaryColor {
+  background-color: var(--secondaryColor);
+}
+
+.bg-mainColor {
+  background-color: var(--background);
+}
+
+/* media query */
+@media screen and (max-width: 992px) {
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .hero img {
+    border-top-right-radius: 50% !important;
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 2% !important;
+    border-bottom-right-radius: 2% !important;
+  }
+
+  .margin-costum2 {
+    margin-left: 0px !important;
+  }
+
+  .margin-costum {
+    margin-left: 10px !important;
+  }
+
+  .home-text {
+    text-align: center;
+    margin-top: -30px;
+  }
+
+  .hero {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    margin-left: 20px;
+  }
+
+  .hero img {
+    width: 270px !important;
+  }
+
+  .social-media {
+    margin-top: 30px;
+  }
+}
+/* end media query */
+
+/* navbar */
+.nav-link {
+  transition: 0.2s;
+}
+.nav-link:hover {
+  color: var(--secondaryColor) !important;
+}
+/* navbar */
+
+/* section home */
+button i {
+  width: 30px;
+}
+
+section .container {
+  height: 100vh;
+}
+
+section .container .row {
+  height: 100%;
+}
+
+.hero img {
+  transition: 1s;
+  border: 10px solid salmon;
+  width: 300px;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 15%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 15%;
+}
+/* section home */
