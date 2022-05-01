@@ -262,8 +262,17 @@ section .container {
   border-bottom-right-radius: 0%;
 }
 
+.box-img-skill {
+  width: 100px !important;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #ffa8a8;
+  display: flex;
+  justify-content: center;
+}
+
 .skill-img {
-  width: 100px;
+  width: 90px;
   border-radius: 50%;
 }
 /* end sectione about */
