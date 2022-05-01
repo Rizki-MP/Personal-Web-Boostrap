@@ -41,19 +41,16 @@ body {
 }
 
 /* media query */
+/* max-width 992px */
 @media screen and (max-width: 992px) {
+  /* navbar */
+  /* end navbar */
+
+  /* home */
   .social-media {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-  }
-
-  .Name-costum {
-    justify-content: center !important;
-  }
-
-  .text-about {
-    text-align: center;
   }
 
   .hero img {
@@ -83,6 +80,17 @@ body {
   .hero {
     margin-top: 100px;
   }
+  /* end home */
+
+  /* about */
+
+  .Name-costum {
+    justify-content: center !important;
+  }
+
+  .text-about {
+    text-align: center;
+  }
 
   .card-1 {
     border-top-right-radius: 50% !important;
@@ -111,13 +119,28 @@ body {
     border-bottom-left-radius: 10% !important;
     border-bottom-right-radius: 10% !important;
   }
-}
+  /* end about */
 
+  /* services */
+  /* end services */
+
+  /* portfolio */
+  /* end portfolio */
+
+  /* contact */
+  /* end contact */
+}
+/* end mac-width 992px */
+
+/* max-width 576px */
 @media screen and (max-width: 576px) {
+  /* navbar */
   .navbar-brand {
     margin-left: 20px;
   }
+  /* end navbar */
 
+  /* home */
   .hero img {
     width: 270px !important;
   }
@@ -125,7 +148,21 @@ body {
   .social-media {
     margin-top: 30px;
   }
+  /* end home */
+
+  /* about */
+  /* end about */
+
+  /* services */
+  /* end services */
+
+  /* portfolio */
+  /* end portfolio */
+
+  /* contact */
+  /* end contact */
 }
+/* end max-width 576px */
 /* end media query */
 
 /* navbar */
