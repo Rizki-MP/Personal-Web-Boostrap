@@ -2,7 +2,7 @@
 
 :root {
   --background: #fff1f1;
-  --secondaryColor: salmon;
+  --secondaryColor: #fa8072;
   --secondaryTwoColor: #1bbb63;
 }
 
@@ -83,11 +83,6 @@ body {
   /* end home */
 
   /* about */
-
-  .Name-costum {
-    justify-content: center !important;
-  }
-
   .text-about {
     text-align: center;
   }
@@ -119,6 +114,10 @@ body {
     border-bottom-left-radius: 10% !important;
     border-bottom-right-radius: 10% !important;
   }
+
+  #about {
+    margin-top: 200px !important;
+  }
   /* end about */
 
   /* services */
@@ -130,7 +129,15 @@ body {
   /* contact */
   /* end contact */
 }
-/* end mac-width 992px */
+/* end max-width 992px */
+
+/* max-width 768px */
+@media screen and (max-width: 769px) {
+  /* about */
+  
+  /* end about */
+}
+/* end max-width 768px */
 
 /* max-width 576px */
 @media screen and (max-width: 576px) {
@@ -201,17 +208,11 @@ section .container {
 /* section About */
 #about {
   padding-top: 80px !important;
-  margin-top: 200px !important;
-}
-
-.box-name-costum {
-  border-radius: 10%;
-  background-color: #ffdfdf;
-  box-shadow: 0 0 10px 2px rgba(250, 128, 114, 0.6);
 }
 
 .card-about {
-  box-shadow: 0 0 10px 2px rgba(250, 128, 114, 0.6);
+  border: 2px solid var(--secondaryColor);
+  box-shadow: 0 0 11px 3px rgba(250, 128, 114, 0.6);
   background-color: #ffdfdf;
   overflow: hidden;
 }
@@ -262,17 +263,8 @@ section .container {
   border-bottom-right-radius: 0%;
 }
 
-.box-img-skill {
-  width: 100px !important;
-  overflow: hidden;
-  border-radius: 50%;
-  background-color: #ffa8a8;
-  display: flex;
-  justify-content: center;
-}
-
 .skill-img {
   width: 90px;
-  border-radius: 50%;
+  color: rgba(0, 0, 0, .4);
 }
 /* end sectione about */
