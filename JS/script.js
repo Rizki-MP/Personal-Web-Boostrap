@@ -1,8 +1,19 @@
-// alert("sebelummnya maaf soalnya aku dah update, jadi sekarang gak pure html css aja..sekarang ada javascriptnya dikit..eheee");
+const toastTrigger = document.getElementById('servicesToast')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
 
-// parallax
-$(window).scroll(function () {
-  var wScroll = $(this).scrollTop();
+    toast.show()
+  })
+}
 
-  console.log(wScroll);
-});
+const cTrigger = document.getElementById('contactToast')
+const cLiveExample = document.getElementById('liveToast')
+if (cTrigger) {
+  cTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(cLiveExample)
+
+    toast.show()
+  })
+}

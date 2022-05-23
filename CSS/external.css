@@ -40,7 +40,21 @@ body {
   color: #414141;
 }
 
+/* all */
+.garis {
+  background-color: var(--secondaryTwoColor);
+  width: 120px;
+  height: 2px;
+}
+/* end all */
+
 /* media query */
+/* max-width  */
+@media screen and (max-width: 1200px) {
+  .card-about .about-img {
+    width: 140px !important;
+  }
+}
 /* max-width 992px */
 @media screen and (max-width: 992px) {
   /* navbar */
@@ -87,6 +101,46 @@ body {
     text-align: center;
   }
 
+  #about {
+    margin-top: 200px !important;
+  }
+
+  .img-skill img {
+    width: 80px !important;
+    height: 70px !important;
+  }
+
+  /* .card-about .about-img {
+    width: 140px !important;
+  } */
+  /* end about */
+
+  /* services */
+  /* end services */
+
+  /* portfolio */
+  /* end portfolio */
+
+  /* contact */
+  /* end contact */
+}
+/* end max-width 992px */
+
+/* max-width 768px */
+@media screen and (max-width: 769px) {
+  /* about */
+  .card-about .about-img {
+    width: 170px !important;
+  }
+
+  .card-about .about-img {
+    /* width: 140px !important; */
+    border-top-right-radius: 50% !important;
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 10% !important;
+    border-bottom-right-radius: 10% !important;
+  }
+
   .card-1 {
     border-top-right-radius: 50% !important;
     border-top-left-radius: 50% !important;
@@ -108,39 +162,18 @@ body {
     border-bottom-right-radius: 50% !important;
   }
 
-  .card-about .about-img {
-    border-top-right-radius: 50% !important;
-    border-top-left-radius: 50% !important;
-    border-bottom-left-radius: 10% !important;
-    border-bottom-right-radius: 10% !important;
+  .garis {
+    margin: 0 auto !important;
+    width: 120px;
+    height: 2px;
   }
-
-  #about {
-    margin-top: 200px !important;
-  }
-  /* end about */
-
-  /* services */
-  /* end services */
-
-  /* portfolio */
-  /* end portfolio */
-
-  /* contact */
-  /* end contact */
-}
-/* end max-width 992px */
-
-/* max-width 768px */
-@media screen and (max-width: 769px) {
-  /* about */
-  
   /* end about */
 }
 /* end max-width 768px */
 
 /* max-width 576px */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 577px) {
+  
   /* navbar */
   .navbar-brand {
     margin-left: 20px;
@@ -158,6 +191,7 @@ body {
   /* end home */
 
   /* about */
+  
   /* end about */
 
   /* services */
@@ -186,11 +220,11 @@ button i {
   width: 30px;
 }
 
-section .container {
+section .container > .row > .col-12 {
   height: 100vh;
 }
 
-#home .container .row {
+.rowHome {
   height: 100%;
 }
 
@@ -263,8 +297,43 @@ section .container {
   border-bottom-right-radius: 0%;
 }
 
-.skill-img {
-  width: 90px;
-  color: rgba(0, 0, 0, .4);
+.img-skill img {
+  width: 80px !important;
+  height: 70px !important;
+  transition: .4s;
+}
+
+.img-skill img:hover {
+  width: 100px !important;
+  height: 90px !important;
 }
 /* end sectione about */
+
+/* portfolio */
+.card-project {
+  background-color: #fa8072;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-project img {
+  border-radius: 5px;
+}
+
+.card-project .opacity {
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  z-index: 1;
+  opacity: 1;
+  font-size: 0px;
+  transition: .2s;
+  opacity: 1;
+}
+
+.card-project .opacity:hover {
+  background-color: rgba(0, 0,0, .5) !important;
+  font-size: 18px;
+  color:#fff !important;
+}
+
+/* end portfolio */
