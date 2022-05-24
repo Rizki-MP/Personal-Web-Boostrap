@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
+  --backgroundTwo: #f1fffe;
   --background: #fff1f1;
   --secondaryColor: #fa8072;
   --secondaryTwoColor: #1bbb63;
@@ -9,6 +10,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background);
+  /* background-color: var(--backgroundTwo); */
   min-height: 3000px;
 }
 
@@ -21,7 +23,7 @@ body {
 }
 
 .text-backgroundTwoColor {
-  color: var(--background) !important;
+  color: var(--background) ;
 }
 
 .bg-secondaryColor {
@@ -229,7 +231,6 @@ section .container > .row > .col-12 {
 }
 
 .hero img {
-  transition: 1s;
   border: 10px solid rgb(250, 128, 114);
   width: 300px;
   border-top-right-radius: 40%;
@@ -337,3 +338,41 @@ section .container > .row > .col-12 {
 }
 
 /* end portfolio */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tema 2 */
+.temaDuaText {
+  color: cornflowerblue !important;
+  transition: all .7s ease-in-out;
+}
+
+.temaImg {
+  transition: all .7s ease-in-out;
+  border-color:cornflowerblue !important;
+}
+
+.shadowTema {
+  box-shadow: 0 0 11px 3px rgba(100, 149, 237, .6) !important;
+}
+
+.temaMain {
+  transition: all .7s ease-in-out;
+  background-color: var(--backgroundTwo) !important;
+}
+
+.BackgroundTema {
+  transition: all .7s ease-in-out;
+  background-color: cornflowerblue !important;
+}
+/* end tema 2 */
