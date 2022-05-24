@@ -209,6 +209,11 @@ body {
 /* end media query */
 
 /* navbar */
+#Tombol img {
+  width: 50px;
+  height: 40px;
+}
+
 .nav-link {
   transition: 0.2s;
 }
