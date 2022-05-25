@@ -15,7 +15,7 @@ body {
 }
 
 .text-secondaryColor {
-  color: var(--secondaryColor) !important;
+  color: var(--secondaryColor);
 }
 
 .text-secondaryTwoColor {
@@ -209,6 +209,14 @@ body {
 /* end media query */
 
 /* navbar */
+.active {
+  color: var(--secondaryColor) !important;
+}
+
+.navbar-brand {
+  cursor: pointer;
+}
+
 #Tombol img {
   width: 50px;
   height: 40px;
@@ -342,6 +350,22 @@ section .container > .row > .col-12 {
   color:#fff !important;
 }
 
+.list-kategori-portfolio li {
+  cursor: pointer;
+  list-style: none;
+}
+
+.list-kategori-portfolio li gantiTextActive:hover {
+  color: var(--secondaryTwoColor) !important;
+}
+
+.list-garis {
+  margin-top: -13px;
+  background-color: var(--secondaryTwoColor);
+  width: 20px;
+  height: 2px;
+}
+
 /* end portfolio */
 
 
@@ -381,3 +405,20 @@ section .container > .row > .col-12 {
   background-color: cornflowerblue !important;
 }
 /* end tema 2 */
+
+/* list kategori portfolio */
+.TextActive_1 {
+  color: cornflowerblue ;
+  transition: all .7s ease-in-out;
+}
+
+.TextActive_2 {
+  color: cornflowerblue ;
+  transition: all .7s ease-in-out;
+}
+
+.TextActive_3 {
+  color: cornflowerblue ;
+  transition: all .7s ease-in-out;
+}
+/* end */

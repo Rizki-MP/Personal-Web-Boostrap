@@ -24,12 +24,19 @@ if (cTrigger) {
 // input
 const tombolTema = document.getElementById('Tombol')
 
+const gantiListActive_1 = document.querySelectorAll('.gantiListActive_1')[0]
+const gantiListActive_2 = document.querySelectorAll('.gantiListActive_2')[0]
+const gantiListActive_3 = document.querySelectorAll('.gantiListActive_3')[0]
+
 // output
 const gantiWarnaText = document.querySelectorAll('.gantiTemaText')
 const gantiTemaImg = document.querySelectorAll('.gantiTemaImg')
 const gantiTemaMain= document.querySelectorAll('.gantiTemaMain')
 const gantishadowTema= document.querySelectorAll('.gantishadowTema')
 const gantiBackgroundTema= document.querySelectorAll('.gantiBackgroundTema')
+const gantiTextActive_1= document.querySelectorAll('.gantiTextActive_1')[0]
+const gantiTextActive_2= document.querySelectorAll('.gantiTextActive_2')[0]
+const gantiTextActive_3= document.querySelectorAll('.gantiTextActive_3')[0]
 
 // text warna
 for(let i = 0; i < gantiWarnaText.length; i++) {
@@ -64,6 +71,32 @@ for(let i = 0; i < gantiBackgroundTema.length; i++) {
   tombolTema.addEventListener('click', function() {
     gantiBackgroundTema[i].classList.toggle('BackgroundTema')
   })
+
+  // list
+  tombolTema.addEventListener('click', function() {
+    gantiTextActive_1.classList.toggle('TextActive_1')
+  })
+  // list 2
+  tombolTema.addEventListener('click', function() {
+    gantiTextActive_2.classList.toggle('TextActive_2')
+  })
+  // list 3
+  tombolTema.addEventListener('click', function() {
+    gantiTextActive_3.classList.toggle('TextActive_3')
+  })
 }
 
+// list item portfolio
+  // list 1
+  // gantiListActive_1.addEventListener('click', function() {
+  //   gantiTextActive_1.classList.toggle('TextActive_1')
+  // })
+  // // list 2
+  // gantiListActive_2.addEventListener('click', function() {
+  //   gantiTextActive_2.classList.toggle('TextActive_2')
+  // })
+  // // list 3
+  // gantiListActive_3.addEventListener('click', function() {
+  //   gantiTextActive_3.classList.toggle('TextActive_3')
+  // })
 // end tema 1
